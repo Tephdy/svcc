@@ -1,0 +1,35 @@
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(209, 15, 15);
+}
+
+footer {
+    background-color: rgb(53, 53, 53);
+    color: #fff;
+}
+
+footer h5 {
+    color: yellow;
+}
+
+.ftr-end {
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+}
+
+span {
+    color: rgb(209, 15, 15);
+}
+
+@media (max-width:720px) {
+    footer {
+        margin-top: 100px;
+    }
+}
