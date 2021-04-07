@@ -63,9 +63,14 @@ span {
 
 .mycol {
     flex: 1;
-    background-color: yellow;
+    background-color: rgb(73, 67, 67);
 }
 
 .course-info {
-    flex: 1;
+    flex: 3;
+    padding-left: 30px;
+}
+
+.rowcontainer {
+    display: block;
 }
