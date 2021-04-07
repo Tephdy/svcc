@@ -43,9 +43,15 @@ span {
 }
 
 .courses {
-    flex: 1;
+    flex: 2;
 }
 
 .imgStudent {
     flex: 1;
+}
+
+@media (max-width:720px) {
+    .hero img {
+        margin-left: -55px;
+    }
 }
