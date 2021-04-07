@@ -55,3 +55,17 @@ span {
         margin-left: -55px;
     }
 }
+
+.myrow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mycol {
+    flex: 1;
+    background-color: yellow;
+}
+
+.course-info {
+    flex: 1;
+}
