@@ -37,7 +37,8 @@ span {
 
 /* for courses.html page */
 
-.hero {
+
+/* .hero {
     display: flex;
     justify-content: space-evenly;
 }
@@ -63,7 +64,8 @@ span {
 
 .mycol {
     flex: 1;
-    background-color: rgb(73, 67, 67);
+    position: relative;
+    background-color: rgb(204, 13, 13);
 }
 
 .course-info {
@@ -74,3 +76,9 @@ span {
 .rowcontainer {
     display: block;
 }
+
+.mycol img {
+    position: absolute;
+    top: 50px;
+    left: -25px;
+} */
