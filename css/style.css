@@ -28,11 +28,18 @@ span {
     color: rgb(209, 15, 15);
 }
 
+.rowcss {
+    width: 50%;
+}
+
 @media (max-width:720px) {
     footer {
         margin-top: 100px;
     }
     .imgStudent img {
         margin-left: -70px;
+    }
+    .rowcss {
+        width: 100%;
     }
 }
