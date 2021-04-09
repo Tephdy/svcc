@@ -36,6 +36,14 @@ span {
     margin-left: 150px;
 }
 
+.container-fluid svg {
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: -900px;
+}
+
 .carousel-item {
     width: 50%;
     margin-left: 50%;
